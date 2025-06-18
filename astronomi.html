@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomi: En Reise i Kosmos – Arbeidshefte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            color: #2c3e50; /* Dark blue-gray text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 1.5rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Softer shadow */
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0; /* Subtle border */
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a202c; /* Even darker blue for headings */
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 1.5rem; text-align: center; }
+        h2 { font-size: 2rem; margin-top: 2.5rem; margin-bottom: 1.25rem; }
+        h3 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 1rem; }
+        h4 { font-size: 1.5rem; margin-top: 1.5rem; margin-bottom: 0.75rem; }
+        .rhythmic-part {
+            background-color: #e0f2f7; /* Lighter blue for rhythmic part */
+            border-left: 6px solid #4a90e2; /* Blue accent */
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+        .main-part {
+            background-color: #f7fafc; /* Very light gray for main part */
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+        .work-part {
+            background-color: #ecfdf5; /* Light green for work part */
+            border-left: 6px solid #38a169; /* Green accent */
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+        .task-box {
+            background-color: #ffffff;
+            border: 1px dashed #a0aec0; /* Dashed border for tasks */
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+        }
+        .illustration-placeholder {
+            background-color: #edf2f7;
+            border: 1px solid #cbd5e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 150px;
+            text-align: center;
+            color: #718096;
+            font-style: italic;
+            border-radius: 0.75rem;
+            margin-top: 1rem;
+            overflow: hidden; /* Ensure image fits */
+        }
+        .illustration-placeholder img {
+            width: 100%;
+            height: auto;
+            border-radius: 0.75rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        th, td {
+            border: 1px solid #cbd5e0;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background-color: #e2e8f0;
+            font-weight: 600;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+        }
+    </style>
+</head>
+<body class="leading-relaxed">
+
+    <div class="container">
+        <header class="text-center py-8">
+            <h1 class="text-4xl lg:text-5xl font-extrabold text-blue-800">Astronomi: En Reise i Kosmos</h1>
+            <p class="text-xl text-blue-600 mt-2">Arbeidshefte for 8. trinn – Høsten 2025</p>
+        </header>
+
+        <section class="card mb-8">
+            <h2 class="text-3xl text-blue-700">Velkommen til en Storslått Reise!</h2>
+            <p class="mt-4 text-lg">
+                Astronomi er et fascinerende emne som handler om universet vi lever i, fra de minste meteorittene til de største galaksene.
+                Dette arbeidsheftet er laget for å veilede deg gjennom en spennende treukers reise inn i kosmos, basert på Steinerskolens
+                læreplan for 8. trinn. Vi skal utforske gamle myter, moderne vitenskap, og selvfølgelig, la oss undre over alt det storslåtte der ute.
+            </p>
+            <p class="mt-4 text-lg">
+                Du vil få muligheten til å tegne, skrive, modellere og observere, og ikke minst, la deg inspirere av historiene om menneskehetens
+                møte med verdensrommet. Gjør deg klar for et eventyr!
+            </p>
+        </section>
+
+        <section class="card mb-8">
+            <h2 class="text-3xl text-blue-700">Ukestruktur – Din daglige rytme</h2>
+            <p class="mt-4 text-lg">Hver dag vil følge en Steiner-inspirert rytme for å vekke både undring og forståelse:</p>
+            <ul class="list-disc list-inside mt-4 space-y-2 text-lg">
+                <li><strong>Rytmisk del (ca. 15-20 minutter):</strong> Vi starter dagen med vers, stjernehistorier, samtaler og tenkeoppgaver for å lande i emnet og vekke nysgjerrigheten.</li>
+                <li><strong>Hoveddel (ca. 45-60 minutter):</strong> Her vil du få faglig formidling gjennom fortellinger, dialoger og utforskning av ulike temaer.</li>
+                <li><strong>Arbeidsstund (ca. 45-60 minutter):</strong> Dette er tiden for praktisk arbeid! Du skal skrive, tegne, modellere, lage kart og utføre eksperimenter.</li>
+            </ul>
+            <p class="mt-4 text-lg">
+                Ukens høydepunkt vil være en fellesaktivitet, som en stjernekveld eller et planetspill!
+            </p>
+        </section>
+
+        <section class="card mb-8">
+            <h2 class="text-3xl text-blue-700">Våre mål for perioden</h2>
+            <p class="mt-4 text-lg">I løpet av disse tre ukene skal du:</p>
+            <ul class="list-disc list-inside mt-4 space-y-2 text-lg">
+                <li>Få en <strong>opplevelse av verdensrommet som storslått og meningsfullt</strong>.</li>
+                <li>Få <strong>innsikt i solsystemet</strong>, jordens og månens bevegelser, og stjernehimmelen.</li>
+                <li>Utvikle <strong>evne til observasjon og undring</strong>.</li>
+                <li>Bruke en <strong>fortellende og kunstnerisk tilnærming</strong> til stoffet.</li>
+            </ul>
+        </section>
+
+        <!-- Week 1 -->
+        <section class="card">
+            <h2 class="text-3xl text-blue-700">Uke 1: Inn i verdensrommet – Kosmiske fortellinger og stjernebilder</h2>
+            <p class="mt-4 text-lg">
+                Denne uken dykker vi ned i hvordan ulike kulturer gjennom tidene har sett på stjernehimmelen. Vi skal se hvordan
+                mennesket har forsøkt å forstå universet gjennom myter og fortellinger, og hvordan disse har formet vår oppfatning
+                av stjerner og stjernebilder.
+            </p>
+
+            <!-- Day 1: Monday, Week 1 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Mandag, Uke 1: De eldste fortellingene</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Vers:</strong></p>
+                <p class="italic">
+                    Himmelen er et teppe vevd av stjerner klare,<br>
+                    Fortellinger hvisker i nattens kalde snare.<br>
+                    Fra uminnelige tider har mennesket stirret opp,<br>
+                    Søkt svar i lyset, uten stopp.
+                </p>
+                <p class="mt-2"><strong>Stjernehistorie:</strong> "Ursa Major og Ursa Minor" – Bjørnene på himmelen. Diskuter: Hvorfor tror dere mennesker så dyr og figurer i stjernene?</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Kosmologier:</strong> Hvordan har ulike kulturer forklart universets opprinnelse og oppbygning? Vi ser på korte trekk fra mesopotamiske, egyptiske og norrøne kosmologier. Hver kultur hadde sin unike måte å tolke himmelen på, ofte knyttet til deres religion og daglige liv.</p>
+                <p class="mt-2"><strong>Hva er stjerner?</strong> En introduksjon til hva stjerner egentlig er: enorme baller av gass (mest hydrogen og helium) som produserer sitt eget lys og varme gjennom en prosess kalt kjernefusjon. De er soler i sin egen rett, bare mye, mye lenger unna enn vår egen Sol.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 1.1: Din egen eldgamle kosmologi</p>
+                    <p class="mt-2">Tegn din egen forestilling om universet slik du tenker at de gamle babylonerne eller egypterne kan ha forestilt seg det. Bruk farger og symboler som passer til kulturen du velger å hente inspirasjon fra. Husk at for dem var himmelen ofte et tak, en guddom eller et hav som omga deres verden.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/d1e2f1/4a90e2?text=Tegning+av+Babylonsk+eller+Egyptisk+Kosmologi" alt="Tegning av en hypotetisk babylonsk eller egyptisk kosmologi som viser flat jord og en hvelvet himmel">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2: Tuesday, Week 1 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Tirsdag, Uke 1: Stjernebilder og myter</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Tenkeoppgave:</strong> Hvis du skulle lage et nytt stjernebilde i dag, hva ville det se ut som, og hva ville fortellingen bak det være?</p>
+                <p class="mt-2"><strong>Stjernehistorie: Orion og Pleiadene fra gresk mytologi.</strong></p>
+                <p class="mt-2 text-justify">
+                    In gresk mytologi var Orion en mektig jeger, sønn av Poseidon. Han skrøt av at han kunne drepe alle dyr på jorden, noe som opprørte Gaia, jordens gudinne. Hun sendte en stor skorpion for å drepe ham. I kampen ble Orion stukket og døde. Både Orion og skorpionen ble plassert på himmelen som stjernebilder, men på motsatt side av himmelen, slik at når Skorpionen stiger opp, går Orion ned.
+                    <br><br>
+                    Pleiadene var syv søstre, døtre av Titanen Atlas og havnymfen Pleione. De var vakre og ble ofte jaget av Orion. For å beskytte dem, forvandlet Zevs dem til duer, og senere til stjerner for å unnslippe Orions evige jakt. De syv stjernene kan fortsatt sees som en liten, tett klynge på himmelen, ofte assosiert med sesonger og navigasjon.
+                </p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Identifisering av stjernebilder:</strong> Stjernebilder er mønstre av stjerner som mennesker har sett og navngitt på himmelen. Vi ser på bilder av kjente stjernebilder som Storebjørn, Lillebjørn, Orion, og lærer å gjenkjenne dem.</p>
+                <p class="mt-2"><strong>Stjerner vs. Planeter:</strong> Det er en viktig forskjell! Stjerner er fjerne soler som produserer sitt eget lys og virker faste på himmelen (selv om de beveger seg veldig sakte). Planeter er himmellegemer som kretser rundt en stjerne, reflekterer lys fra den, og beveger seg synlig over tid på nattehimmelen. Derfor ble de gamle grekerne kalt dem "vandrestjerner".</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 1.2: Skap ditt eget stjernebilde og myte</p>
+                    <p class="mt-2">La fantasien flyte! Tegn et stjernebilde og gi det et navn. Skriv deretter en kort myte eller fortelling om hvordan dette stjernebildet kom til himmelen. Hva representerer det? Er det et dyr, en helt, et objekt? Hvorfor er det der, og hva er dets skjebne?</p>
+                    <div class="illustration-placeholder mt-4">
+                        <!-- Replaced with the user's uploaded image -->
+                        <img src="image_f0f161.png-78b94895-4331-4dc2-8bf1-79f8f8b4314b" alt="Et blankt stjernekart for elevene å tegne egne stjernebilder på">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 3: Wednesday, Week 1 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Onsdag, Uke 1: Egyptisk himmel og Ra</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Vers:</strong></p>
+                <p class="italic">
+                    Egyptens solgud, Ra, med strålende prakt,<br>
+                    Seilte sin båt på himmelens trakt.<br>
+                    Over dag og natt, han reisen sin gjør,<br>
+                    Beskytter jorden, slik livet fremtrer.
+                </p>
+                <p class="mt-2"><strong>Stjernehistorie: Solguden Ra og himmelen i egyptisk mytologi.</strong></p>
+                <p class="mt-2 text-justify">
+                    For de gamle egypterne var himmelen full av guder og symboler. Den viktigste var Solguden Ra, som hver dag seilte over himmelen i sin solbåt, fra øst til vest, og brakte lys og liv til verden. Om natten reiste han gjennom underverdenen, Duat, der han måtte kjempe mot kaosets krefter, spesielt den enorme slangen Apophis, for å sikre at solen kunne stige opp igjen neste morgen. De så også Nilen på jorden som en speiling av Melkeveien på himmelen, og viktige stjerner og stjernebilder ble knyttet til guder og deres sykluser, spesielt de som markerte Nilens årlige flom.
+                </p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Egyptisk astronomi:</strong> De gamle egypterne brukte stjernehimmelen aktivt. Ikke bare i religiøse tekster og myter, men også svært praktisk. De baserte kalenderen sin på stjernene, spesielt stjernen Sirius, hvis første oppgang ved daggry (heliakisk oppgang) signaliserte begynnelsen på Nilens årlige flom. Dette var avgjørende for jordbruket deres. Pyramidene deres er også bygget med bemerkelsesverdig presisjon, og mange av dem er justert etter kardinalpunktene og stjerner som Nordstjernen (eller datidens Nordstjerne). De så universet som et ordnet system, en refleksjon av den guddommelige orden, "Ma'at".</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 1.3: Tegn et egyptisk stjernekart</p>
+                    <p class="mt-2">Tegn et egyptisk-inspirert stjernekart med de viktigste gudene og stjernebildene som er nevnt. Inkluder gjerne Solguden Ra i sin båt, og tenk på hvordan Nilen speiler Melkeveien. Du kan også bruke hieroglyfer eller egyptiske symboler for å gjøre det autentisk.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/cceeff/003366?text=Egyptisk+Stjernekart" alt="Illustrasjon av et egyptisk stjernekart med Ra i båt og himmelgudinnen Nut">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 4: Thursday, Week 1 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Torsdag, Uke 1: Himmelen som kart</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Tenkeoppgave:</strong> Hvordan ville du forklart for en person som aldri har sett stjernene, hva et stjernekart er?</p>
+                <p class="mt-2"><strong>Kort refleksjon:</strong> Hva er det som gjør stjernekart nyttige? Tenk både historisk og i dag.</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Introduksjon til stjernekart:</strong> Et stjernekart er en todimensjonal representasjon av stjernehimmelen, vist fra et bestemt sted på jorden og til en bestemt tid. Det hjelper oss å finne stjerner, stjernebilder, planeter og andre himmellegemer. Nordstjernen er et viktig referansepunkt på den nordlige halvkule, da den nesten er stasjonær på himmelen og alltid peker mot geografisk nord.</p>
+                <p class="mt-2"><strong>Azimut og Høyde:</strong> For å beskrive hvor et objekt er på himmelen fra ditt ståsted, bruker astronomer to koordinater:</p>
+                <ul class="list-disc list-inside ml-4 mt-2">
+                    <li><strong>Azimut:</strong> Dette er retningen langs horisonten, målt i grader med klokken fra geografisk nord (0°). Øst er 90°, sør er 180°, og vest er 270°.</li>
+                    <li><strong>Høyde (Elevasjon):</strong> Dette er vinkelen opp fra horisonten, målt i grader (0° er rett på horisonten, 90° er rett over hodet ditt – senit).</li>
+                </ul>
+                <p class="mt-2"><strong>Orientering etter stjernene:</strong> I årtusener har mennesker brukt stjernene til å navigere. Vikingskipene krysset havet ved hjelp av sol og stjerner. De polynesiske navigatørene, som krysset enorme strekninger av Stillehavet i utriggerkanoer, hadde en utrolig kunnskap om stjernehimmelen, vindmønstre og havstrømmer for å finne veien mellom øyene. Stjernene var deres kompass og kart i ett.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 1.4: Lag ditt eget enkle stjernekart</p>
+                    <p class="mt-2">Lag ditt eget enkle stjernekart som viser de viktigste stjernebildene du har lært om denne uken (f.eks. Storebjørn, Lillebjørn, Orion, Pleiadene). Merk av Nordstjernen tydelig. Du kan også tegne himmelretningene på kartet.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/e0f2f7/4a90e2?text=Enkelt+stjernekart" alt="Illustrasjon av et enkelt stjernekart som viser Nordstjernen og noen stjernebilder">
+                    </div>
+                </div>
+                <div class="task-box mt-4">
+                    <p class="font-bold">Oppgave 1.5: Bruk "Himmelsk Kikkert" for å utforske posisjoner</p>
+                    <p class="mt-2">Gå til seksjonen "Din egen Himmelske Kikkert: Azimut- og Høydekalkulator" nederst i dette heftet. Bruk kalkulatoren til å eksperimentere med ulike datoer, tider og bredde-/lengdegrader (prøv f.eks. ditt eget hjemsted!). Noter ned:
+                    <ul class="list-disc list-inside ml-4 mt-2">
+                        <li>Hva er høyden til Solen midt på dagen i Kristiansand om sommeren? Og om vinteren?</li>
+                        <li>Hva er høyden til Nordstjernen fra Kristiansand? Og fra ekvator (breddegrad 0)?</li>
+                        <li>Hvordan endres Solens azimut fra morgen til kveld?</li>
+                    </ul>
+                    Reflekter over hvordan dette henger sammen med dag og natt, og årstider.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Day 5: Friday, Week 1 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Fredag, Uke 1: Ukentlig høydepunkt – Stjerneobservasjon (eller simulert)</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Oppsummering:</strong> Hva har vi lært om denne uken? Hvilke myter og stjernebilder har gjort mest inntrykk på deg? Hva har overrasket deg mest?</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Forberedelse til stjernenatt:</strong> For å observere stjerner best mulig, trenger vi et mørkt sted, bort fra lysforurensning. Øynene trenger tid til å tilpasse seg mørket (minst 15-20 minutter). Unngå sterkt lys. Et rødt lys kan brukes til å se kart og notere uten å ødelegge nattesynet.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund (eller fellesaktivitet):</h4>
+                <div class="task-box">
+                    <p class="font-bold">Fellesaktivitet: Stjernenatt (hvis mulig) eller Virtuell stjernenatt</p>
+                    <p class="mt-2"><strong>Stjernenatt:</strong> Organiser en kveld med stjerneobservasjon der dere kan bruke stjernekartene dere har laget. Se etter stjernebilder, planeter (hvis synlige), og Melkeveien.</p>
+                    <p class="mt-2"><strong>Alternativ (hvis ikke mulig med stjernenatt):</strong> Bruk et planetarium-program (f.eks. Stellarium, gratis programvare) eller en nettside som viser stjernehimmelen i sanntid. Identifiser stjernebilder og planeter, og se hvordan himmelen beveger seg gjennom natten.</p>
+                    <p class="mt-2 font-bold">Oppgave 1.6: Observasjonslogg</p>
+                    <p class="mt-2">Skriv ned dine observasjoner og tanker fra stjernenatten/virtuelle stjernenatten. Hvilke stjerner eller stjernebilder la du merke til? Hva undret du deg over? Ble du overrasket over hvor mange stjerner du så, eller hvor klart de var?</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/2c3e50/ffffff?text=Stjernenatt+Observasjon" alt="Bilde av en person som observerer stjerner med et teleskop eller med det blotte øye under en klar nattehimmel">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Week 2 -->
+        <section class="card">
+            <h2 class="text-3xl text-blue-700">Uke 2: Solsystemet – Vår kosmiske nabolag</h2>
+            <p class="mt-4 text-lg">
+                Denne uken fokuserer vi på vårt eget solsystem. Vi skal lære om Solen, planetene som kretser rundt den,
+                Månen med sine faser, og de spennende fenomenene som kometer og meteorer.
+            </p>
+
+            <!-- Day 1: Monday, Week 2 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Mandag, Uke 2: Solen – Vår egen stjerne</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Vers:</strong></p>
+                <p class="italic">
+                    Solen, vår stjerne, en flamme så stor,<br>
+                    Gir liv til planeten, til alt som gror.<br>
+                    Den driver vår verden med lys og med varme,<br>
+                    Fra dypet av rommet, en evig karme.
+                </p>
+                <p class="mt-2"><strong>Tenkeoppgave:</strong> Hvordan ville jorden vært uten solen? Hvorfor er solen så viktig for os2?</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Solen som stjerne:</strong> Solen er hjertet i vårt solsystem. Den er en gjennomsnittlig stor stjerne, men den er gigantisk sammenlignet med jorden. Den består primært av hydrogen (ca. 74%) og helium (ca. 24%). I Solens kjerne foregår kjernefusjon, der hydrogenatomer smelter sammen til helium, og frigjør enorme mengder energi i form av lys og varme. Denne energien er det som driver alt liv på Jorden.</p>
+                <p class="mt-2"><strong>Solsystemets dannelse:</strong> Vårt solsystem antas å have blitt dannet for rundt 4,6 milliarder år siden fra en enorm, roterende sky av gass og støv, kalt en soltåke. Tyngdekraften fikk skyen til å trekke seg sammen og rotere raskere, og det meste av materialet samlet seg i sentrum og dannet Solen. Resten av materialet flatet ut til en skive, og klumpet seg gradvis sammen til planetene, månene og andre mindre legemer vi ser i dag.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 2.1: Solens indre</p>
+                    <p class="mt-2">Tegn Solen og merk av de viktigste delene (f.eks. kjerne, strålingssone, konveksjonssone, fotosfære, kromosfære, korona). Skriv en kort forklaring til hver del.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/ffd700/8b4513?text=Solens+Indre+Diagram" alt="Diagram som viser Solens indre struktur med kjerne, strålingssone, konveksjonssone, fotosfære og korona">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2: Tuesday, Week 2 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Tirsdag, Uke 2: Planetene i solsystemet</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Stjernehistorie: Galileo Galilei og teleskopet.</strong></p>
+                <p class="mt-2 text-justify">
+                    Galileo Galilei (1564-1642) var en italiensk astronom, fysiker og ingeniør. Han blir ofte kalt "vitenskapens far". Selv om han ikke oppfant teleskopet, forbedret han det drastisk i 1609 og var blant de første til å rette det mot nattehimmelen.
+                    <br><br>
+                    His observations were revolutionary: He saw craters and mountains on the Moon, which showed that it was not a perfect celestial sphere. He observed the phases of Venus, just as the Moon has phases, which strongly supported the Copernican, heliocentric worldview (the Sun at the center). But perhaps most famously, he discovered four large moons orbiting Jupiter. This was the first proof that not everything revolved around Earth, and challenged the prevailing geocentric view where Earth was the center of the universe. Galileo's findings were so controversial that he was brought before the Inquisition and forced to recant his "heretical" ideas. His contributions nevertheless changed the course of science forever.
+                </p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Planetene:</strong> Vårt solsystem har åtte anerkjente planeter, som deles inn i to hovedgrupper: de indre steinplanetene og de ytre gasskjempene. Vi går gjennom hver enkelt planet:</p>
+                <ul class="list-disc list-inside ml-4 mt-2">
+                    <li><strong>Merkur:</strong> Minste planet, nærmest Solen. Ekstreme temperaturforskjeller.</li>
+                    <li><strong>Venus:</strong> Ligner Jorden i størrelse, men har en ekstremt tykk, giftig atmosfære og en overflate som er hetere enn Merkur.</li>
+                    <li><strong>Jorden:</strong> Vår egen planet, kjent for sitt flytende vann og liv.</li>
+                    <li><strong>Mars:</strong> Den "Røde Planet", med polkapper og tegn på gammelt flytende vann. Mål for fremtidig menneskelig utforskning.</li>
+                    <li><strong>Jupiter:</strong> Den største planeten, en gasskjempe med den kjente Store Røde Flekken (en enorm storm).</li>
+                    <li><strong>Saturn:</strong> Kjent for sine spektakulære ringer, sammensatt av ispartikler. Også en gasskjempe.</li>
+                    <li><strong>Uranus:</strong> En isgasskjempe som roterer sidelengs.</li>
+                    <li><strong>Neptun:</strong> En annen isgasskjempe, den ytterste av hovedplanetene, med kraftige vinder.</li>
+                </ul>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 2.2: Planetskjemaoversikt</p>
+                    <p class="mt-2">Fyll ut skjemaet nedenfor med fakta om hver planet i solsystemet. Bruk notater fra hoveddelen og gjerne litt egen research!</p>
+                    <div class="overflow-x-auto mt-4 rounded-xl border border-gray-200">
+                        <table class="min-w-full text-sm">
+                            <thead>
+                                <tr class="bg-blue-50">
+                                    <th class="p-3">Planet</th>
+                                    <th class="p-3">Størrelse (relativt til Jorden)</th>
+                                    <th class="p-3">Type (stein/gass/is)</th>
+                                    <th class="p-3">Spesielle kjennetegn</th>
+                                    <th class="p-3">Antall måner (ca.)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Merkur</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td>Venus</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td>Jorden</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td>Mars</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td>Jupiter</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td>Saturn</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td>Uranus</td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td>Neptun</td><td></td><td></td><td></td><td></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 3: Wednesday, Week 2 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Onsdag, Uke 2: Månen og dens faser</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Tenkeoppgave:</strong> Hvorfor ser Månen forskjellig ut fra natt til natt? Hva er det som endrer seg?</p>
+                <p class="mt-2"><strong>Kort refleksjon:</strong> Hvilke følelser vekker Månen hos deg? Har du noen gang følt deg påvirket av månefasene?</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Månefaser:</strong> Månen har ikke sitt eget lys, men reflekterer lys fra Solen. Månefasene vi ser fra Jorden skyldes Månens bevegelse rundt Jorden, som endrer hvor much of den solbelyste siden vi kan se. Det tar omtrent 29,5 dager for Månen å fullføre en syklus med faser. De åtte hovedfasene er: Nymåne, Voksende halvmåne, Første kvarter, Voksende fullmåne, Fullmåne, Avtagende fullmåne, Siste kvarter, og Avtagende halvmåne.</p>
+                <p class="mt-2"><strong>Formørkelser:</strong> En formørkelse skjer når ett himmellegeme passerer inn i skyggen av et annet. En <strong>solformørkelse</strong> skjer når Månen passerer mellom Solen og Jorden, og blokkerer Solens lys for en kort stund. En <strong>måneformørkelse</strong> skjer når Jorden passerer mellom Solen og Månen, og kaster en skygge over Månen.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 2.3: Lommelyktexperiment for å vise månens faser</p>
+                    <p class="mt-2"><strong>Utstyr:</strong> En lommelykt (representerer Solen), en ball (representerer Månen), og du selv (representerer Jorden).</p>
+                    <p class="mt-2"><strong>Gjennomføring:</strong> Stå i et mørkt rom. Hold ballen foran deg og la lommelykten skinne på den. Roter ballen sakte rundt deg selv (hold ballen i armlengdes avstand og roter kroppen din sakte rundt). Observer hvordan lyset treffer ballen fra ditt perspektiv. Noter hvordan den opplyste delen av ballen ser ut fra "Jorden".</p>
+                    <p class="mt-2"><strong>Dokumentasjon:</strong> Tegn de ulike månens faser sett fra "Jorden" (deg) og merk av navnene på fasene (Nymåne, Fullmåne, Kvartmåner osv.).</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/aad3e6/336699?text=Månefaser+Diagram" alt="Diagram som viser de ulike fasene til månen sett fra jorden">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 4: Thursday, Week 2 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Torsdag, Uke 2: Komer og meteorer</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Stjernehistorie: Solformørkelse i historisk tid.</strong></p>
+                <p class="mt-2 text-justify">
+                    En av de mest berømte solformørkelsene i historien er den som ifølge den greske historikeren Herodot fant sted den 28. mai 585 f.Kr. under en krig mellom mederne og lydierne. Slaget var i full gang da himmelen plutselig mørknet, og stjernene ble synlige midt på dagen. Begge sider tolket dette som et tegn fra gudene om å stoppe krigen, og en fredsavtale ble umiddelbart inngått. En annen legende sier at den greske filosofen Thales fra Miletus hadde forutsagt formørkelsen, selv om dette er omdiskutert. Uansett, hendelsen viser hvordan slike sjeldne og dramatiske himmelske fenomener hadde en enorm innvirkning på mennesker i antikken, ofte tolket som varsler eller tegn på guddommelig inngripen.
+                </p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Kometer, meteorer og asteroider – Hva er forskjellen?</strong></p>
+                <ul class="list-disc list-inside ml-4 mt-2">
+                    <li><strong>Asteroider:</strong> Store stein- og metalllegemer som kretser rundt Solen, primært i asteroidebeltet mellom Mars og Jupiter. De er "småplaneter".</li>
+                    <li><strong>Kometer:</strong> "Skittne snøballer" bestående av is, støv og stein. Når de nærmer seg Solen, varmes isen opp, fordamper og danner en lysende hale som peker bort fra Solen. Kometer kommer ofte fra de ytre delene av solsystemet, som Oort-skyen eller Kuiperbeltet.</li>
+                    <li><strong>Meteorider:</strong> Små fragmenter av asteroider eller kometer som svever i rommet.</li>
+                    <li><strong>Meteorer:</strong> Når en meteoride kommer inn i Jordens atmosfære og brenner opp på grunn av friksjon, ser vi den som et lysglimt på himmelen – en "stjerneskudd".</li>
+                    <li><strong>Meteoritter:</strong> Hvis en meteoride er stor nok til å overleve turen gjennom atmosfæren og treffe Jordens overflate, kalles den en meteoritt.</li>
+                </ul>
+                <p class="mt-2"><strong>Nedslag på jorden:</strong> Store meteorittnedslag er sjeldne, men kan ha katastrofale konsekvenser, som utryddelsen av dinosaurene for 65 millioner år siden.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 2.4: Forskjellen i universet</p>
+                    <p class="mt-2">Lag en tegneserie eller et diagram som forklarer forskjellen mellom en komet, en meteor (stjerneskudd) og en asteroide. Inkluder hvor de kommer fra og hva som skjer med dem når de nærmer seg Jorden.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/ffecb3/e65100?text=Komet-Meteor-Asteroide+Diagram" alt="Diagram som illustrerer forskjellene mellom en komet, meteor og asteroide">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 5: Friday, Week 2 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Fredag, Uke 2: Ukentlig høydepunkt – Solsystem-modell og quiz</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Oppsummering:</strong> Hva har vi lært om solsystemet denne uken? Hvilke fakta har overrasket deg mest? Hva fant du mest fascinerende?</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Gjennomgang:</strong> Vi repeterer viktige begreper og fakta om solsystemet for å forberede oss på quizen og modellbyggingen.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund (eller fellesaktivitet):</h4>
+                <div class="task-box">
+                    <p class="font-bold">Fellesaktivitet: Modell av solsystemet</p>
+                    <p class="mt-2">Lag en felles eller gruppe-basert modell av solsystemet. Bruk ulike materialer (f.eks. kuler, leire, papp) for å representere planetene. Tenk på størrelsesforhold (relativ størrelse) og avstander (om enn ikke i full skala – det er nesten umulig på et klasserom!). Diskuter utfordringene med å lage en skalamodell av solsystemet.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/b3e0ff/336699?text=Solsystemmodell" alt="Illustrasjon av en modell av solsystemet med alle planetene og solen">
+                    </div>
+                </div>
+                <div class="task-box mt-4">
+                    <p class="font-bold">Fellesaktivitet: Astronomi-quiz</p>
+                    <p class="mt-2">En morsom quiz for å teste kunnskapen om solsystemet og astronomi generelt. Spørsmålene vil dekke alt fra planetenes navn og egenskaper til månefaser og himmelfenomener.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Gemini API Feature -->
+        <section class="card">
+            <h2 class="text-3xl text-blue-700">Himmelsk Reiseguide ✨</h2>
+            <p class="mt-4 text-lg">
+                La oss utforske universet med fantasi! Skriv inn navnet på en planet, en måne, eller et annet himmellegeme,
+                og la AI-astronomen generere en kort, fantasifull reiseguide om hvordan det ville være å besøke dette stedet.
+            </p>
+            <div class="mt-6 flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <input
+                    type="text"
+                    id="planetInput"
+                    placeholder="F.eks. Mars, Jupiter, Enceladus..."
+                    class="flex-grow p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 w-full sm:w-auto"
+                />
+                <button
+                    id="generateGuideButton"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 w-full sm:w-auto"
+                >
+                    ✨ Generer Reiseguide ✨
+                </button>
+            </div>
+            <div id="guideOutput" class="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-lg text-gray-700 min-h-[100px] flex items-center justify-center text-center italic">
+                Reiseguiden vil dukke opp her...
+            </div>
+            <div id="loadingIndicator" class="hidden mt-4 text-center text-blue-500 font-semibold">
+                Genererer reiseguide...
+            </div>
+        </section>
+
+
+        <!-- Week 3 -->
+        <section class="card">
+            <h2 class="text-3xl text-blue-700">Uke 3: Jorden i bevegelse – Årstider, dag og natt</h2>
+            <p class="mt-4 text-lg">
+                Denne uken skal vi fokusere på Jordens egne bevegelser – rotasjon og revolusjon – og hvordan disse påvirker
+                livet vårt med dag og natt, årstider og tidssoner. Vi avslutter med mystiske nordlys og atmosfæren som beskytter oss.
+            </p>
+
+            <!-- Day 1: Monday, Week 3 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Mandag, Uke 3: Rotasjon og revolusjon</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Vers:</strong></p>
+                <p class="italic">
+                    Jorden den snurrer, i døgnets dans,<br>
+                    Og kretser om Solen, i evig glans.<br>
+                    Fra natt blir det dag, fra vinter blir vår,<br>
+                    Hvert sekund en bevegelse, år etter år.
+                </p>
+                <p class="mt-2"><strong>Tenkeoppgave:</strong> Hvordan ville livet vært hvis Jorden ikke roterte eller kretsende rundt Solen? Hva ville skjedd?</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Rotasjon:</strong> Jordens rotasjon er bevegelsen av Jorden rundt sin egen akse. Denne rotasjonen tar omtrent 24 timer (ett døgn) og er årsaken til at vi opplever dag og natt. Den siden av Jorden som vender mot Solen har dag, mens den siden som vender bort har natt.</p>
+                <p class="mt-2"><strong>Revolusjon:</strong> Jordens revolusjon er bevegelsen av Jorden rundt Solen. Denne bevegelsen tar omtrent 365,25 dager (ett år). Denne bevegelsen, kombinert med Jordens aksehelning, er den primære årsaken til årstidene.</p>
+                <p class="mt-2"><strong>Jordens aksehelning:</strong> Jordens rotasjonsakse er ikke rett opp og ned i forhold til sin bane rundt Solen; den er vippet med omtrent 23,5 grader. Denne vippen er avgjørende for årstidene. Den fører til at ulike deler av Jorden mottar direkte sollys i ulike tider av året.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 3.1: Jorden i bevegelse</p>
+                    <p class="mt-2">Bruk en globus og en lommelykt for å demonstrere jordens rotasjon (dag/natt) og revolusjon (årstider med skrå akse). Tegn diagrammer som illustrerer begge deler og forklar med egne ord hvordan disse bevegelsene skaper dag og natt, og årstider.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/99ddff/006699?text=Jordens+Bevegelse+Diagram" alt="Diagram som viser jordens rotasjon og revolusjon rundt solen, med en skråstilt akse">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2: Tuesday, Week 3 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Tirsdag, Uke 3: Årstider, dag og natt, tidssoner</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Stjernehistorie: Aristarkos fra Samos og heliosentrismen.</strong></p>
+                <p class="mt-2 text-justify">
+                    Rundt 270 f.Kr., mer enn 1800 år før Copernicus og Galileo, foreslo den greske astronomen Aristarkos fra Samos en radikal idé: at Jorden og de andre planetene kretset rundt Solen, og at Jorden roterte rundt sin egen akse. Dette er det vi kaller et heliosentrisk verdensbilde (fra gresk "helios" for sol, og "kentron" for sentrum).
+                    <br><br>
+                    Han kom til denne konklusjonen ved å observere månens og solens størrelse og avstander. Men hans ideer ble stort sett ignorert eller avvist av hans samtidige. Den dominerende tanken, ledet av Aristoteles og senere Ptolemaios, var at Jorden var universets urokkelige sentrum (det geosentriske verdensbildet). Dette skyldtes dels mangel på klare bevis (f.eks. teleskopobservasjoner) og dels en filosofisk og religiøs overbevisning om Jordens spesielle plass i kosmos. Aristarkos' strålende, men premature, innsikt måtte vente i århundrer på å bli anerkjent.
+                </p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Forklaring av årstider:</strong> Årstidene skyldes ikke at Jorden er nærmere Solen om sommeren (faktisk er Jorden nærmest Solen om vinteren på den nordlige halvkule!). Det er Jordens aksehelning som er nøkkelen. Når den nordlige halvkule vipper mot Solen, får den mer direkte sollys og lengre dager – sommer. Når den vipper bort, får den mindre direkte sollys og kortere dager – vinter. Den sørlige halvkule opplever det motsatte.</p>
+                <p class="mt-2"><strong>Tidssoner:</strong> Fordi Jorden roterer, har ulike steder på Jorden dag og natt til forskjellige tider. For å organisere dette ble verden delt inn i 24 tidssoner, hver på omtrent 15 lengdegrader. Nullmeridianen går gjennom Greenwich i London, og alle tidssoner er basert på Coordinated Universal Time (UTC) i forhold til Greenwich.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 3.2: Sol-Jord-modell og skyggeteater</p>
+                    <p class="mt-2"><strong>Utstyr:</strong> En sterk lyskilde (Solen), en globus (Jorden).</p>
+                    <p class="mt-2"><strong>Gjennomføring:</strong> Bruk lyskilden og globusen til å demonstrere hvordan skygger dannes gjennom døgnet og året. Fokuser på hvordan daglengden varierer med årstidene på ulike steder på Jorden.</p>
+                    <p class="mt-2"><strong>Dokumentasjon:</strong> Tegn ulike scenarioer som viser:</p>
+                    <ol class="list-decimal list-inside ml-4 mt-2">
+                        <li>Daglengde ved sommersolverv på Nordkalotten (midnattssol).</li>
+                        <li>Daglengde ved vintersolverv i Sør-Amerika (lengre dager).</li>
+                        <li>Dag/natt-syklus ved ekvator (omtrent lik dag og natt hele året).</li>
+                    </ol>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/88ccff/004488?text=Årstider+og+Skygger" alt="Diagram som viser jordens skrå akse i forhold til solen, og hvordan dette skaper årstider og varierende daglengde">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 3: Wednesday, Week 3 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Onsdag, Uke 3: Nordlys og atmosfære</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Vers:</strong></p>
+                <p class="italic">
+                    På himmelens lerret, en dans så fin,<br>
+                    Aurora Borealis, et lys som er din.<br>
+                    Fra solens vrede, et vakkert spill,<br>
+                    Beskyttet av luften, en skjerm så still.
+                </p>
+                <p class="mt-2"><strong>Stjernehistorie: Aurora Borealis – myter og fysikk.</strong></p>
+                <p class="mt-2 text-justify">
+                    Nordlyset, eller Aurora Borealis, har inspirert myter og legender over hele verden, spesielt i nordlige kulturer. Samene kalte det "Guovssahas", lyset som kan høres, og trodde det var lyden av ånder som lekte. De behandlet nordlyset med stor respekt. I norrøn mytologi ble det noen ganger sett på som glansen fra valkyrienes rustninger når de red over himmelen, eller en himmelbro til Åsgard.
+                    <br><br>
+                    Vitenskapelig sett er nordlys et fantastisk naturfenomen. Det oppstår når elektrisk ladde partikler fra Solen (solvind) kolliderer med gasspartikler i Jordens øvre atmosfære. Disse partiklene kanaliseres mot Jordens magnetiske poler. Når de treffer gassatomene, får de atomene til å lyse. Fargene varierer avhengig av hvilken gasspartikkel som treffes og i hvilken høyde det skjer: grønt fra oksygen (vanligst), rødt fra oksygen i høyere høyder, og blått/fiolett fra nitrogen.
+                </p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Nordlys:</strong> Nordlys (Aurora Borealis) på den nordlige halvkule og sørlys (Aurora Australis) på den sørlige halvkule, er et resultat av samspillet mellom Solens utstråling (solvind), Jordens magnetfelt og atmosfæren. Solvinden er en strøm av ladde partikler som slynges ut fra Solen. Jordens magnetfelt fanger disse partiklene og leder dem mot polene. Når partiklene kommer inn i atmosfæren, kolliderer de med atomer og molekyler av gass (oksygen og nitrogen), som da frigjør energi i form av lys.</p>
+                <p class="mt-2"><strong>Atmosfæren:</strong> Jordens atmosfære er et lag av gasser som omgir planeten vår, holdt på plass av Jordens tyngdekraft. Den beskytter oss mot skadelig stråling fra Solen, opprettholder en stabil temperatur, og inneholder oksygen som er nødvendig for livet. Atmosfæren er delt inn i flere lag (troposfæren, stratosfæren, mesosfæren, termosfæren og eksosfæren), som hver har unike egenskaper.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 3.3: Hvordan nordlys dannes</p>
+                    <p class="mt-2">Tegn et diagram som viser hvordan nordlys dannes. Inkluder Solen, solvinden (med piler), Jordens magnetfelt (med feltlinjer), og atmosfæren (i lag). Skriv en kort forklaring til diagrammet.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/003366/aaddff?text=Nordlys+Diagram" alt="Diagram som viser hvordan nordlys dannes ved at solvindpartikler interagerer med jordens magnetfelt og atmosfære">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 4: Thursday, Week 3 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Torsdag, Uke 3: Fremtiden i rommet</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Tenkeoppgave:</strong> Hvilke utfordringer og muligheter ser du for menneskeheten i fremtidens romfart? Hva er det viktigste vi bør fokusere på?</p>
+                <p class="mt-2"><strong>Kort refleksjon:</strong> Tror du det finnes liv andre steder i universet? Hvorfor/hvorfor ikke? Diskuter med sidemannen.</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Romfart:</strong> Menneskets reise ut i rommet begynte for alvor på midten av 1900-tallet med romkappløpet mellom USA og Sovjetunionen. Fra å sende de første satellittene og menneskene i bane, har vi nå romstasjoner som rommer astronauter over lengre tid, og ambisiøse planer om å returnere til Månen (Artemis-programmet) og å sende mennesker til Mars i fremtiden. Romfart er ikke bare vitenskapelig utforskning, men også teknologiutvikling og en kilde til internasjonal inspirasjon og samarbeid.</p>
+                <p class="mt-2"><strong>Søk etter utenomjordisk liv:</strong> Spørsmålet om vi er alene i univeruset har fascinert menneskeheten i årtusener. Vitenskapen i dag søker etter tegn på liv, enten det er mikrobielt liv på Mars eller hav under isdekkene på måner som Europa eller Enceladus. Prosjekter som SETI (Search for Extraterrestrial Intelligence) lytter etter radiosignaler fra fjerne sivilisasjoner, mens romteleskoper som James Webb-teleskopet analyserer atmosfærene til eksoplaneter for å finne kjemiske signaturer som kan indikere liv.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund:</h4>
+                <div class="task-box">
+                    <p class="font-bold">Oppgave 3.4: Din visjon av fremtiden i rommet</p>
+                    <p class="mt-2">Design et fremtidig romfartøy eller en romstasjon. Hvilke funksjoner har det? Hvordan vil det se ut? Hva er formålet med det (f.eks. utforskning, kolonisering, turisme)? Begrunn designvalgene dine. Tegn gjerne en detaljert skisse med forklaringer.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/666666/ffffff?text=Fremtidens+Romstasjon/Romfartøy" alt="Skisse av et futuristisk romfartøy eller en romstasjon">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 5: Friday, Week 3 -->
+            <h3 class="text-2xl text-blue-600 mt-8">Fredag, Uke 3: Vurdering og avslutning</h3>
+            <div class="rhythmic-part">
+                <h4 class="text-xl text-blue-800">Rytmisk del:</h4>
+                <p><strong>Oppsummering:</strong> Hva er det viktigste du tar med deg fra denne perioden i astronomi? Hvilke nye innsikter har du fått, og hva har vekket mest undring?</p>
+            </div>
+            <div class="main-part">
+                <h4 class="text-xl text-gray-800">Hoveddel:</h4>
+                <p class="mt-2"><strong>Forberedelse til presentasjon/utstilling:</strong> Gå gjennom hovedfagsheftet ditt. Sørg for at alle oppgaver er utført, tegningene er klare, og tekstene er fullstendige. Tenk over hva du vil vise frem og hvordan du vil presentere det til de andre.</p>
+            </div>
+            <div class="work-part">
+                <h4 class="text-xl text-green-800">Arbeidsstund (fellesaktivitet og vurdering):</h4>
+                <div class="task-box">
+                    <p class="font-bold">Fellesaktivitet: Utstilling eller fremvisning</p>
+                    <p class="mt-2">Vi arrangerer en utstilling eller fremvisning av hovedfagsheftene og andre prosjekter (modeller, tegninger). Hver elev får presentere sitt arbeid for de andre i klassen. Dette er en mulighet til å dele din innsikt og kreativitet!</p>
+                </div>
+                <div class="task-box mt-4">
+                    <p class="font-bold">Kreativ avslutningsoppgave: "Hvordan ville du forklart jorden til et barn på Mars?"</p>
+                    <p class="mt-2">Tenk deg at du møter et nysgjerrig barn på Mars som aldri har sett Jorden. Hvordan ville du forklart vår unike planet til dem? Skriv en kort historie, et dikt, tegn en illustrasjon med forklarende tekst, eller lag en kort presentasjon. Tenk på hva som ville vært det mest fascinerende, uvanlige eller utfordrende å forklare med Jordens natur, liv eller fenomener.</p>
+                    <div class="illustration-placeholder mt-4">
+                        <img src="https://placehold.co/400x250/ff7f50/ffffff?text=Barn+på+Mars+Ser+Jorden" alt="Illustrasjon av et marsbarn som ser jorden fra Mars, med forklarende elementer">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card mb-8">
+            <h2 class="text-3xl text-blue-700">Vurdering</h2>
+            <p class="mt-4 text-lg">Din innsats i denne perioden vil bli vurdert basert på:</p>
+            <ul class="list-disc list-inside mt-4 space-y-2 text-lg">
+                <li><strong>Deltakelse:</strong> Din aktive deltakelse i diskusjoner, aktiviteter og samarbeid.</li>
+                <li><strong>Samtale:</strong> Din evne til å reflektere over temaene og bidra i faglige samtaler.</li>
+                <li><strong>Hovedfagshefte:</strong> Kvaliteten på ditt utførte arbeid i arbeidsheftet, inkludert tekster, illustrasjoner, diagrammer og refleksjon.</li>
+            </ul>
+        </section>
+
+        <!-- Section: FAQ -->
+        <section class="card mb-8">
+            <h2 class="text-3xl text-blue-700">Spørsmål og svar – Når språket leker!</h2>
+            <p class="mt-4 text-lg">
+                Godt observert! Noen ganger føles språket litt urettferdig, spesielt når det kommer til gamle ord og vitenskapelige navn. Her er noen spørsmål som ofte dukker opp, og som kan føles litt 'irriterende' fordi de ikke følger enkle regler, men som lærer oss noe viktig om både universet og hvordan vi navngir ting!
+            </p>
+
+            <h3 class="text-2xl text-blue-600 mt-8">1. Hvorfor heter det astronomi og ikke geonomi når vi har geologi og astrologi?</h3>
+            <p class="mt-2 text-lg">
+                Dette handler om gamle greske ord, og hvordan ulike vitenskaper har fått navn basert på hva de studerer – og hvem som først brukte dem.
+                <br><em>Geo-</em> betyr jord (som i <em>geologi</em> = læren om jorden)
+                <br><em>Astro-</em> betyr stjerne (som i <em>astronomi</em> = "stjerneloven" eller "lovene som styrer stjernene")
+                <br><em>-logi</em> betyr "læren om"
+                <br><em>-nomi</em> kommer fra <em>nomos</em>, som betyr "lover" eller "ordning"
+                <br><br>Så:
+                <br><strong>Geologi</strong> = læren om jorden (fjellets lag, jordens kjerne, osv.)
+                <br><strong>Astrologi</strong> = læren om hvordan stjernene påvirker mennesker (ikke en vitenskap, men en gammel tro)
+                <br><strong>Astronomi</strong> = vitenskapen om himmellegemenes bevegelser og lover
+                <br><br>Men hvorfor ikke geonomi da, for å være konsekvent?
+                <br>Fordi geologi og astronomi ble navngitt i helt forskjellige tider og sammenhenger. Astronomi var en gammel vitenskap allerede i antikken – og handlet om bevegelser og mønstre på himmelen (ikke bare stjernene, men også planeter, solen og månen). Ordet astronomi fantes lenge før ordet geologi dukket opp i vitenskapelig bruk.
+                Man kunne kanskje i dag valgt mer systematiske navn – men språk og vitenskap utvikler seg kaotisk, akkurat som stjernene på himmelen først ser ut til å gjøre. Før vi finner mønstrene.
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/d7e5f0/4a7aa3?text=Ordbakgrunn+Diagram" alt="Diagram som illustrerer ordbakgrunnen for geologi, astrologi og astronomi">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">2. Hvorfor kaller vi det en «måneformørkelse» når månen jo fortsatt er der?</h3>
+            <p class="mt-2 text-lg">
+                Fordi den ser ut til å bli borte – men det er egentlig jordens skygge som dekker den. Ordet «formørkelse» betyr bare at lyset blir borte fra vårt synspunkt. Månen er der hele tiden – den bare gjemmer seg i skyggen!
+                <br><br>👉 <strong>Fun fact:</strong> I gamle dager trodde man ofte at månen ble spist av en drage. Derfor ropte folk og slo på gryter for å "jage" dragen vekk.
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/b0c4de/364f6b?text=Drage+Spiser+Månen" alt="Illustrasjon av en drage som symbolsk spiser månen under en formørkelse">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">3. Hvis jorda snurrer rundt hele tiden, hvorfor kjenner vi det ikke?</h3>
+            <p class="mt-2 text-lg">
+                Fordi alt rundt oss snurrer med – lufta, havet, vi selv – i samme fart. Det er som å sitte i et fly i 900 km/t: du merker det ikke før noe endrer seg brått.
+                <br><br>👉 <strong>Praktisk demo:</strong> Snurr en elev sakte på en kontorstol med øynene lukket – og så stopp brått for å demonstrere effekten av brå endring i bevegelse.
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/c0e0c0/408040?text=Person+i+Fly+eller+på+Kontorstol" alt="Illustrasjon av en person som sitter komfortabelt i et fly som beveger seg i høy hastighet, eller en person på en snurrende kontorstol">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">4. Hvorfor er Pluto ikke en planet lenger? Har den blitt borte?</h3>
+            <p class="mt-2 text-lg">
+                Nei, Pluto er der fortsatt, og har det bra! Men astronomene bestemte at for å være en "ekte planet", må et himmellegeme rydde unna alt i sin egen bane. Pluto deler banen med masse "rot" (andre dvergplaneter og objekter i Kuiperbeltet) – og derfor mistet den planet-statusen i 2006 og ble klassifisert som en "dvergplanet".
+                <br><br>👉 <strong>Menneskelig vri:</strong> Pluto er litt som den minste på fotballbanen som får være med av og til, men ikke får plass på offisielt lag. Den er fortsatt en del av gjengen, bare med en litt annen rolle!
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/add8e6/000080?text=Pluto+som+Dvergplanet" alt="Illustrasjon av Pluto blant andre objekter i Kuiperbeltet, eller en fotballscene med en liten spiller på sidelinjen">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">5. Hvorfor ser vi ikke Saturns ringer fra jorda med det blotte øye?</h3>
+            <p class="mt-2 text-lg">
+                Fordi de er for langt unna og for tynne! Saturns ringer er faktisk kjempestore, men de er bare noen få hundre meter tykke – og veldig, veldig langt borte fra Jorden. Du trenger kikkert eller et teleskop for å se dem ordentlig og sette pris på deres prakt.
+                <br><br>👉 <strong>Oppgave:</strong> Finn bilder tatt med kraftige teleskop, som Hubble-teleskopet, og sammenlign med hvordan Saturn ser ut på himmelen med det blotte øye (som en lysende "stjerne").
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/f0e68c/8b0000?text=Saturn+Ringer+vs+Øye" alt="Illustrasjon av Saturn med store, synlige ringer ved siden av en liten, uskarp prikk som representerer hvordan den sees med det blotte øye">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">6. Hvis solen er oppe om dagen, hvordan vet vi hva som skjer på nattehimmelen?</h3>
+            <p class="mt-2 text-lg">
+                Vi må vente på at jorda snur vekk fra sola, da blir det mørkt og stjernene blir synlige! Astronomer som studerer stjerner og galakser jobber derfor ofte om natten. Mange av de største teleskopene i verden er plassert på steder hvor det nesten alltid er mørkt og skyfritt (som på høye fjell i ørkener, f.eks. i Chile eller Hawaii), for å få best mulig utsikt til universet.
+                <br><br>👉 <strong>Gøyal tanke:</strong> Hvis du bodde på Månen, kunne du sett stjerner på dagtid – fordi det ikke er noen atmosfære der som sprer sollyset og skaper en lys himmel!
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/a9b9c9/2c3e50?text=Observatorium+eller+Måneastronaut" alt="Illustrasjon av et astronomisk observatorium på et fjell, eller en astronaut på månen som ser stjerner i 'dagslys'">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">7. Hvordan kan lyset fra en stjerne være millioner av år gammelt? Går ikke lys fort?</h3>
+            <p class="mt-2 text-lg">
+                Jo, lys går kjempefort – det er det raskeste vi kjenner til! Hele 300 000 kilometer i sekundet! Men avstanden til stjernene er så enorm, så uendelig stor, at det tar millioner av år for lyset å reise fra en fjern stjerne helt hit til Jorden. Når du ser en stjerne som er en million lysår unna, ser du altså hvordan den så ut for en million år siden – kanskje lenge før dinosaurene fantes!
+                <br><br>👉 <strong>Skriverefleksjon:</strong> "Hva betyr det for vår forståelse av universet at alt jeg ser på nattehimmelen er fortid? Hva om en stjerne jeg ser på akkurat nå, egentlig ikke finnes mer?"
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/e0e0e0/555555?text=Stjernelys+Reise" alt="Illustrasjon av lysstråler som reiser fra en fjern stjerne til en observatør på jorden, med en tidslinje">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">8. Hvorfor beveger stjernene seg på himmelen? Går de rundt oss?</h3>
+            <p class="mt-2 text-lg">
+                Nei – det er ikke stjernene som går rundt oss! Det er Jorden som snurrer rundt sin egen akse. Det bare ser ut som stjernene flytter seg fordi vi er på en roterende plattform. Akkurat som trærne utenfor et bilvindu ser ut til å gå bakover når du kjører bil – men det er egentlig du som beveger deg fremover.
+                <br><br>👉 <strong>Praktisk demo:</strong> Lag et enkelt stjernekart og observer en utvalgt stjerne over flere timer en kveld (eller bruk et simulert program). Merk av hvor den er til ulike tider. Se hvordan den tilsynelatende "flytter seg" over himmelen på grunn av Jordens rotasjon.
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="https://placehold.co/400x250/a3d9ff/004c80?text=Jordens+Rotasjon+og+Stjerner" alt="Diagram som viser jordens rotasjon og hvordan dette får stjerner til å se ut som de beveger seg over himmelen">
+            </div>
+
+            <h3 class="text-2xl text-blue-600 mt-8">9. Hvorfor tar det så lang tid å reise til Månen når den er så nærme Jorda, bare se på bildet der, det er jo ikke langt?</h3>
+            <p class="mt-2 text-lg">
+                Det er et kjempegodt spørsmål, og det er noe som lurer mange! Grunnen til at Månen ser så stor og nær ut på mange bilder, spesielt i lærebøker eller på nettsider, er at disse bildene må komprimeres for å passe på en liten bokside eller skjerm. De kan ikke vise de enorme tomme avstandene i rommet i riktig skala.
+                <br><br>I virkeligheten er avstanden mellom Jorden og Månen kjempestor! Den er i gjennomsnitt rundt <strong>384 400 kilometer</strong>. For å gi deg et bilde av hvor langt det er: du kunne faktisk plassert alle de åtte planetene i solsystemet (Merkur, Venus, Mars, Jupiter, Saturn, Uranus og Neptun) på rad mellom Jorden og Månen, og fortsatt hatt litt plass til overs!
+                <br><br>En rakett som reiser til Månen må derfor reise i flere dager (rundt 3 dager for Apollo-ferdene) i veldig høy hastighet for å dekke denne gigantiske avstanden. Det er ikke bare "å hoppe" over en kort strekning, selv om det kan se slik ut på et lite bilde!
+            </p>
+            <div class="illustration-placeholder mt-4">
+                <img src="image_f0fbe7.png-017154f1-78aa-4c4e-aacd-5c09e9ddd231" alt="Illustrasjon som viser planetene i solsystemet plassert på rad mellom jorden og månen, for å illustrere avstanden.">
+            </div>
+        </section>
+
+        <!-- New Astronomical Calculator Section -->
+        <section class="card mb-8">
+            <h2 class="text-3xl text-blue-700">Din egen Himmelske Kikkert: Azimut- og Høydekalkulator (Konseptuell)</h2>
+            <p class="mt-4 text-lg">
+                Har du noen gang lurt på hvor på himmelen Solen eller Nordstjernen er akkurat nå, fra der du står? Denne konseptuelle kalkulatoren lar deg eksperimentere med dato, tid og din geografiske posisjon for å se hvordan dette påvirker himmellegemenes posisjon.
+            </p>
+            <p class="mt-2 text-sm text-gray-600 italic">
+                <strong>Merk:</strong> Dette er en forenklet modell for å illustrere prinsippene for astronomiske observasjoner, og gir ikke nøyaktige vitenskapelige verdier for alle himmellegemer eller til alle tider. Nøyaktige astronomiske beregninger er svært komplekse!
+            </p>
+
+            <div class="mt-6 space-y-4">
+                <div>
+                    <label for="calcDate" class="block text-sm font-medium text-gray-700">Dato:</label>
+                    <input type="date" id="calcDate" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="calcTime" class="block text-sm font-medium text-gray-700">Tid (HH:MM:SS):</label>
+                    <input type="time" id="calcTime" step="1" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="calcLatitude" class="block text-sm font-medium text-gray-700">Breddegrad (f.eks. 58.15 for Kristiansand):</label>
+                    <input type="number" id="calcLatitude" step="0.01" value="58.15" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="calcLongitude" class="block text-sm font-medium text-gray-700">Lengdegrad (f.eks. 8.01 for Kristiansand):</label>
+                    <input type="number" id="calcLongitude" step="0.01" value="8.01" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div>
+                    <label for="celestialBody" class="block text-sm font-medium text-gray-700">Himmellegeme:</label>
+                    <select id="celestialBody" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                        <option value="Sun">Solen</option>
+                        <option value="Polaris">Polaris (Nordstjernen)</option>
+                        <option value="Generic">Annen/Generisk (kun illustrasjon)</option>
+                    </select>
+                </div>
+                <button
+                    id="calculatePositionButton"
+                    class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 w-full"
+                >
+                    Beregn Posisjon
+                </button>
+            </div>
+
+            <div id="positionOutput" class="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg text-blue-800 font-semibold min-h-[80px] flex items-center justify-center text-center">
+                Posisjonen vil vises her...
+            </div>
+            <div id="calcLoadingIndicator" class="hidden mt-4 text-center text-blue-500 font-semibold">
+                Beregner...
+            </div>
+        </section>
+
+
+        <footer class="text-gray-600 text-sm mt-8">
+            <p>&copy; 2025 Astronomi Arbeidshefte. Alle rettigheter reservert.</p>
+            <p>Illustrasjonsplassholdere fra placehold.co</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Himmelsk Reiseguide (Gemini API)
+            const planetInput = document.getElementById('planetInput');
+            const generateGuideButton = document.getElementById('generateGuideButton');
+            const guideOutput = document.getElementById('guideOutput');
+            const loadingIndicator = document.getElementById('loadingIndicator');
+
+            generateGuideButton.addEventListener('click', async () => {
+                const planetName = planetInput.value.trim();
+                if (!planetName) {
+                    guideOutput.innerHTML = '<span class="text-red-500">Vennligst skriv inn navnet på en planet eller et himmellegeme!</span>';
+                    return;
+                }
+
+                loadingIndicator.classList.remove('hidden');
+                guideOutput.innerHTML = ''; // Clear previous content
+
+                // Construct the prompt for the LLM
+                const prompt = `Skriv en kort, fantasifull "reiseguide" eller beskrivelse av hvordan det ville være å besøke planeten eller himmellegemet "${planetName}". Fokuser på unike egenskaper, severdigheter og opplevelser. Maks 150 ord. Skriv kun reiseguiden uten innledning eller avslutning.`;
+
+                let chatHistory = [];
+                chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                const payload = { contents: chatHistory };
+                const apiKey = ""; // Canvas will automatically provide the API key here.
+
+                try {
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        const errorData = await response.json();
+                        throw new Error(`API error: ${response.status} - ${errorData.error.message || 'Ukjent feil'}`);
+                    }
+
+                    const result = await response.json();
+
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        const generatedText = result.candidates[0].content.parts[0].text;
+                        guideOutput.innerHTML = `<p>${generatedText}</p>`;
+                    } else {
+                        guideOutput.innerHTML = '<span class="text-red-500">Kunne ikke generere reiseguide. Prøv et annet navn eller formuler annerledes.</span>';
+                    }
+                } catch (error) {
+                    console.error('Error calling Gemini API:', error);
+                    guideOutput.innerHTML = `<span class="text-red-500">Feil: Klarte ikke å hente reiseguide. ${error.message}</span>`;
+                } finally {
+                    loadingIndicator.classList.add('hidden');
+                }
+            });
+
+            // Konseptuell Azimut- og Høydekalkulator
+            const calcDateInput = document.getElementById('calcDate');
+            const calcTimeInput = document.getElementById('calcTime');
+            const calcLatitudeInput = document.getElementById('calcLatitude');
+            const calcLongitudeInput = document.getElementById('calcLongitude');
+            const celestialBodySelect = document.getElementById('celestialBody');
+            const calculatePositionButton = document.getElementById('calculatePositionButton');
+            const positionOutput = document.getElementById('positionOutput');
+            const calcLoadingIndicator = document.getElementById('calcLoadingIndicator');
+
+            // Set default date and time
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = (now.getMonth() + 1).toString().padStart(2, '0');
+            const day = now.getDate().toString().padStart(2, '0');
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+
+            calcDateInput.value = `${year}-${month}-${day}`;
+            calcTimeInput.value = `${hours}:${minutes}:${seconds}`;
+
+            calculatePositionButton.addEventListener('click', () => {
+                const date = calcDateInput.value;
+                const time = calcTimeInput.value;
+                const latitude = parseFloat(calcLatitudeInput.value);
+                const longitude = parseFloat(calcLongitudeInput.value);
+                const body = celestialBodySelect.value;
+
+                if (!date || !time || isNaN(latitude) || isNaN(longitude)) {
+                    positionOutput.innerHTML = '<span class="text-red-500">Vennligst fyll ut alle feltene med gyldige verdier!</span>';
+                    return;
+                }
+
+                calcLoadingIndicator.classList.remove('hidden');
+                positionOutput.innerHTML = ''; // Clear previous content
+
+                // Simulate a short delay for calculation
+                setTimeout(() => {
+                    const result = calculateCelestialPosition(date, time, latitude, longitude, body);
+                    positionOutput.innerHTML = `
+                        <p><strong>Resultat for ${body === 'Sun' ? 'Solen' : body === 'Polaris' ? 'Polaris' : 'Generisk Himmellegeme'}:</strong></p>
+                        <p>Azimut: ${result.azimuth}° (fra geografisk nord, med klokken)</p>
+                        <p>Høyde: ${result.altitude}° (over horisonten)</p>
+                    `;
+                    calcLoadingIndicator.classList.add('hidden');
+                }, 1000); // Simulate 1 second calculation time
+            });
+
+            // Simplified (non-accurate) calculation for demonstration purposes only.
+            // Real astronomical calculations are very complex and require specialized libraries or ephemeris data.
+            function calculateCelestialPosition(dateStr, timeStr, latitude, longitude, body) {
+                // Combine date and time, create a Date object
+                const dateTime = new Date(`${dateStr}T${timeStr}Z`); // Using Z for UTC to simplify time zone in this mock
+                const hoursUTC = dateTime.getUTCHours() + dateTime.getUTCMinutes() / 60 + dateTime.getUTCSeconds() / 3600;
+
+                let azimuth = 0;
+                let altitude = 0;
+
+                if (body === 'Sun') {
+                    // Very crude approximation for Sun
+                    // Altitude is higher around local noon. Latitude affects max altitude.
+                    // Azimuth changes from East (morning) to South (noon) to West (evening).
+                    const hoursFromNoon = Math.abs(hoursUTC - 12);
+                    altitude = 90 - (hoursFromNoon * 7.5); // Max 90 deg at 12 UT, approx 0 at 0/24 UT
+                    altitude += (90 - Math.abs(latitude)) * 0.5; // Crude adjustment for latitude
+
+                    if (hoursUTC < 12) {
+                        azimuth = 90 + (12 - hoursUTC) * 10; // Moves from East (90) towards South (180) in morning
+                    } else {
+                        azimuth = 270 - (hoursUTC - 12) * 10; // Moves from South (180) towards West (270) in afternoon
+                    }
+                    azimuth = (azimuth % 360 + 360) % 360; // Ensure positive 0-360
+
+                } else if (body === 'Polaris') {
+                    // Altitude of Polaris (North Star) is approximately the observer's latitude for Northern Hemisphere.
+                    // Azimuth is always very close to 0 (North).
+                    if (latitude >= 0) { // Only visible from Northern Hemisphere
+                        altitude = latitude;
+                        azimuth = 0; // Always North (geographical north)
+                    } else {
+                        altitude = -5; // Below horizon for Southern Hemisphere
+                        azimuth = 0;
+                    }
+                } else { // Generic body - completely random for illustration
+                    altitude = Math.random() * 90; // Between 0 and 90 degrees
+                    azimuth = Math.random() * 360; // Between 0 and 360 degrees
+                }
+
+                // Ensure altitude is within -90 to 90 range (above/below horizon)
+                altitude = Math.max(-90, Math.min(90, altitude));
+
+                return { azimuth: azimuth.toFixed(2), altitude: altitude.toFixed(2) };
+            }
+        });
+    </script>
+</body>
+</html>
